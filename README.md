@@ -17,17 +17,25 @@ The bulk of our analysis was conducted in Python using numerous libraries includ
 
 iPython Notebooks
 
-The main notebook is SeeClickFix.ipython
+We divided our process notebook into five parts representing the different aspects of our analysis:
 
-The other notebooks provide the supporting analysis related to classification, regression, and networks.
+  1)	Introduction and exploratory data analysis: “1. SeeClickFix.ipynb”
+  2)	Network analysis: “2. SeeClickFix_Network.ipynb”
+  3)	Classification analysis (status): “3. SeeClickFix_Classification _Status.ipynb”
+  4)	Classification analysis (type): “4. SeeClickFix_Classification _Type.ipynb”
+  5)	Regression analysis: “5. SeeClickFix_Regression.ipynb”
 
 ===========
 
-Data Sets
+Datasets
 
-There are four data sets with SeeClickFix_Primary.csv as the primary.
+We use four datasets:
 
-The others include a user dataset and issue history data set specific to Atlanta.
+1)	“SeeClickFixData_Primary”: our primary dataset, which lists each report submission by users of SeeClickFix, as well as the incident location, user id, and description. 
+2)	“SeeClickFixData_Issue_History_ATL”: all the comments made by users for each report submitted.  </t>
+3)	“SeeClickFixData_Users_ATL”: for each SeeClickFix user, the number of issues they have commented on, chosen to follow, and closed, their number of “civic points,” and whether they are authorized to acknowledge other reports.
+4)	“SeeClickFixData_GISExport”: this spreadsheet connects the report submissions to their geographic location, namely city and neighborhood (if in Atlanta).
+
 
 ===========
 
