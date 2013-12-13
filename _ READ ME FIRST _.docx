@@ -1,0 +1,31 @@
+Atlanta SeeClickFix Project
+CS 109 Final Project
+Olalekan Sodeinde, Jon Keen, Matt Lutze, and Adele Faure
+
+Dear reader:
+
+We divided our process notebook into six parts representing the different aspects of our analysis:
+
+Introduction and exploratory data analysis: “1. SeeClickFix.ipynb”
+Network analysis: “2. SeeClickFix_Network.ipynb”
+Classification analysis (status): “3. SeeClickFix_Classification _Status.ipynb”
+Classification analysis (type): “4. SeeClickFix_Classification _Type.ipynb”
+Regression analysis: “5. SeeClickFix_Regression.ipynb”
+Sharing the data: “6. External processing.ipynb”
+
+Please start with Part 1, which introduces the project and the data we are using.
+
+We use four datasets:
+
+“SeeClickFixData_Primary”: our primary dataset, which lists each report submission by users of SeeClickFix, as well as the incident location, user id, and description.
+“SeeClickFixData_Issue_History_ATL”: all the comments made by users for each report submitted.  
+“SeeClickFixData_Users_ATL”: for each SeeClickFix user, the number of issues they have commented on, chosen to follow, and closed, their number of “civic points,” and whether they are authorized to acknowledge other reports.
+“SeeClickFixData_GISExport”: this spreadsheet connects the report submissions to their geographic location, namely city and neighborhood (if in Atlanta).
+
+To visit our website and view our screencast, please go to: http://seeclickfix-atlanta.weebly.com/
+
+If you have any questions, please email us at cs109-atlanta-project@googlegroups.com. 
+
+Thank you,
+
+Lekan, Adele, Matt, and Jon
